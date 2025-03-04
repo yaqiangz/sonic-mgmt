@@ -8,7 +8,7 @@ from tests.common.utilities import wait_until
 
 
 pytestmark = [
-    pytest.mark.topology('any')
+    pytest.mark.topology('m0')
 ]
 
 logger = logging.getLogger(__name__)
